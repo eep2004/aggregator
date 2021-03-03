@@ -1,0 +1,15 @@
+html{height:100%}
+body{height:100%;display:flex;flex-direction:column}
+footer{margin-top:auto}
+a{outline:none}
+.w-1{width:1%;white-space:nowrap}
+.active .page-link{pointer-events:none}
+.stars{display:flex;justify-content:flex-end;direction:rtl}
+.stars span{filter:grayscale(1)}
+.stars span.active,.stars span.active ~ span{filter:none}
+.form-stars .stars span{padding:0 4px;font-size:120%}
+.form-stars .stars:hover span{filter:grayscale(1)}
+.form-stars .stars span:hover,.form-stars .stars span:hover ~ span{filter:none;cursor:pointer}
+.thead-dark a{color:inherit}
+.thead-sort:after{content:'\2193'}
+.thead-sort.thead-sort-asc:after{content:'\2191'}
