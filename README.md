@@ -1,4 +1,4 @@
-[Demo](https://eep2004agg.000webhostapp.com)
+[Demo](https://eep2004aggregator.000webhostapp.com/)
 
 **/config.php** - Настройки приложения
 
